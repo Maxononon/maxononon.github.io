@@ -6269,9 +6269,9 @@ button.close {
   border-radius: 10px;
 }
 li a{
-	font-family: Rosamunda, Rosamunda Two;
-	font-size:36px;
-	color:black;	
+	font-family: 'Marck Script', cursive;
+	font-size:24px;
+	color:#323232;	
 }
 .carousel-indicators .active {
   width: 12px;
