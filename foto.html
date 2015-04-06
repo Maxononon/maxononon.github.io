@@ -15,11 +15,11 @@
   </head>
   <body>
   	<header class="head">
-    	<img src="pics/head.jpg" class="img-responsive img_head" alt="Responsive image">
-
+    	<img src="pics/head.png" class="img-responsive img_head" alt="Responsive image">
+		<nav>
     	<ul class="nav nav-tabs nav-justified">
           <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Сказки</a></li>
+          <li><a href="skazki.html">Сказки</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
               Стихи <span class="caret"></span>
@@ -38,10 +38,13 @@
             	</ul>
           </li>
           <li class="active"><a href="foto.html">Фотографии</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>	
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        </nav>	
     </header>
-    <div class="fotorama">
+    <section>
+    
+    <div class="fotorama"  data-loop="true">
   		<img src="foto/1.jpg">
   		<img src="foto/2.jpg">
         <img src="foto/3.jpg">
@@ -49,6 +52,7 @@
         <img src="foto/5.jpg">
   		
 	</div>
+   </section>
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

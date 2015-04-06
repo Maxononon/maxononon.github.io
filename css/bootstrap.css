@@ -9,14 +9,18 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-	  background:#000;
+	  background:#FFF url('../pics/back.png');
+	  background-attachment:fixed;
 	  padding:0;
 }
 body {
   margin: auto;
   max-width:960px;
-  background:#E40206;
+  
   padding-bottom:30px;
+}
+section{
+	backgroung:#FFF;	
 }
 article,
 aside,
@@ -52,10 +56,9 @@ video {
 	width: 100%;
   	max-width: 960px;
   	margin: 0 auto;	
+	
 }
-.img_head{
-	width: 100%;	
-}
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -1111,7 +1114,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 input,
 button,
@@ -6604,4 +6607,4 @@ button.close {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+
