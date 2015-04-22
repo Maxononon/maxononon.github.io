@@ -1,0 +1,83 @@
+body{
+	width:970px;
+	margin:30px auto;
+	font-size:15px;
+	font-family:Arial, Verdana, sans-serif;
+
+}
+.content{
+	background:#f6e9c1;
+	width:68%;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	float:left;
+	border-radius: 10px; 
+}
+.contact{
+	margin-bottom:30px;
+}
+.footer{
+	background:#e6d0c1;
+	width:100%;
+	padding:30px 0;
+	border-radius: 10px;
+}
+.a{
+	width:99%;
+	height:22px;
+	padding-top:15px;		
+}
+.c{
+	width:99%;
+	height:70px;
+	padding-top:15px;	
+}
+.d{
+	width:50%;
+	margin-left:27.5%;
+}
+.a label, .r label{
+	margin-left:22px;
+	width: 24.4%;
+	float: left;		
+}
+.a input{
+	width:50% ;
+	float: left;
+	height:22px;	
+}
+.b input{
+	margin-left:181px;
+}
+.radio{
+	width: 470px;
+	float: right;
+}
+.radio input{
+	margin-left:0;
+}
+
+.select{
+	padding:19px 0;	
+}
+.conh2{
+	margin-bottom:0;
+	margin-left:27.5%	
+}
+.button{
+	margin-left: 27.5%;
+	margin-top:10px;
+}
+button{
+	    width: 278px;
+			border-radius: 10px; 
+}
+.inf{
+	width:173px;
+	float:right;
+	margin:0 68px;
+}
+.inf h4, .inf p{
+	margin:0;
+}
+
