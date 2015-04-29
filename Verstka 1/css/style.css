@@ -3,15 +3,22 @@ body{
 	margin:30px auto;
 	font-size:15px;
 	font-family:Arial, Verdana, sans-serif;
+	padding:0 40px;
 
 }
+
 .content{
-	background:#f6e9c1;
-	width:68%;
+	background: #f6e9c1;
+	width: 68%;
 	padding-top: 30px;
-	margin-bottom: 50px;
-	float:left;
-	border-radius: 10px; 
+	/*margin-bottom: 50px;*/
+	margin: 0px auto;
+	/*float:left;*/
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+	
 }
 .contact{
 	margin-bottom:30px;
@@ -22,15 +29,24 @@ body{
 	padding:30px 0;
 	border-radius: 0 0 10px 10px;
 }
+select, input[type=text]{
+	font-size:15px;
+}
 .a{
 	width:99%;
 	height:22px;
 	padding-top:15px;		
 }
+.content .a:nth-child(6){
+	padding-top:37px;
+}
+.b{
+	height: 22px;
+}
 .c{
 	width:99%;
-	height:70px;
-	padding-top:15px;	
+	height:40px;
+	padding-top:21px;	
 }
 .d{
 	width:50%;
@@ -47,8 +63,18 @@ body{
 	height:22px;	
 }
 .b input{
-	margin-left:181px;
+	margin:5px 0 0 181px;
+	height:15px;
+	width:15px;
 }
+.b label{
+	vertical-align:super;
+	margin-left:4px;
+}
+.radio label{
+	vertical-align:top;
+}
+
 .radio{
 	width: 470px;
 	float: right;
@@ -67,17 +93,92 @@ body{
 .button{
 	margin-left: 27.5%;
 	margin-top:10px;
+	border-bottom-color: #196ebb;
 }
 button{
-	    width: 278px;
-			border-radius: 10px; 
+	width: 278px;
+	height:54px;
+	border-radius: 20px;
+	border: none;
+	padding: 7px 30px;
+	font-weight: bold;
+	background: -moz-linear-gradient(0% 100% 90deg, #ebe6e1, #f9f3ef) repeat scroll 0% 0% transparent;
+	box-shadow: 0px 1px 0px 0px #FFF inset;
+}
+button h2{
+	margin:0;
 }
 .inf{
 	width:173px;
 	float:right;
-	margin:0 68px;
+	margin:0 90px 0 30px;
 }
-.inf h4, .inf p{
+.inf p{
+	margin:4px 0;
+	font-size: 13px;
+}
+.inf h3 {
+	font-size:16px;
 	margin:0;
 }
+@media only screen and (max-width: 900px) {	
+.inf {width:68%; float:left; margin:0 0 10px 0;} 
 
+
+} 
+@media only screen and (max-width: 650px) {	
+	
+body{
+	width:800px;
+}
+.header{
+	width:475px;
+}
+input[type=text]{
+	width:80%;
+	margin: 0 0 0 10%;
+}
+.a label, .r label {
+margin: 10px 0 5px 55px;
+float:none;
+}
+.b input {
+    margin:5px 0px 35px 55px;
+}
+.a{
+	padding-top: 35px;
+}
+.content .a:first-child{
+	padding-top:1px;
+}
+.a label{
+	width:27%;
+}
+.radio{
+	width: 90%;
+}
+.sel{
+	margin: 2px 0 0 55px;
+}
+.conh2{
+	margin: 10px 0px 5px 55px;
+}
+.contact .a{
+	padding-top: 10px;
+}
+.footer{
+	margin-top: 60px;
+}
+.d{
+	margin: 0 0 5px 55px;
+}
+.button{
+	margin: 0 0 5px 55px;
+}
+.select {
+    padding: 30px 0px;
+}
+.r{
+	margin-top:10px;
+}
+} 
