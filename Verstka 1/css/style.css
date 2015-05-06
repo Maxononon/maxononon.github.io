@@ -1,24 +1,32 @@
 body{
-	width:970px;
+	max-width:970px;
+	min-width:230px;
 	margin:30px auto;
 	font-size:15px;
 	font-family:Arial, Verdana, sans-serif;
 	padding:0 40px;
 
 }
+.header{
+	display:inline;
+}
+.item {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+}
 
 .content{
 	background: #f6e9c1;
-	width: 68%;
-	padding-top: 30px;
-	/*margin-bottom: 50px;*/
-	margin: 0px auto;
-	/*float:left;*/
-	border-radius: 10px;
-	box-sizing: border-box;
+	
 	display: inline-block;
-	
-	
+	border-radius: 10px;
+	max-width: 68%;
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;	
 }
 .contact{
 	margin-bottom:30px;
@@ -37,11 +45,12 @@ select, input[type=text]{
 	height:22px;
 	padding-top:15px;		
 }
-.content .a:nth-child(6){
+/*.content .a:nth-child(6){
 	padding-top:37px;
-}
+}*/
 .b{
 	height: 22px;
+	margin-left: 184px;
 }
 .c{
 	width:99%;
@@ -54,23 +63,28 @@ select, input[type=text]{
 }
 .a label, .r label{
 	margin-left:22px;
-	width: 24.4%;
+	width: 162px;
 	float: left;		
 }
+
 .a input{
 	width:50% ;
 	float: left;
 	height:22px;	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 .b input{
-	margin:5px 0 0 181px;
+	margin:5px 0 0 0;
+	height:15px;
+	width:15px;
+	float:left;
+}
+.d input{
 	height:15px;
 	width:15px;
 }
-/*.b label{
-	vertical-align:super;
-	margin-left:4px;
-}*/
 .d input{
 	float:left;
 }
@@ -83,17 +97,15 @@ select, input[type=text]{
 }
 
 .radio{
-	width: 470px;
-	float: right;
+	float: left;	
 }
 .radio input{
 	margin-left:0;
 }
 .change{
 	width: 130px;
-	float: right;
-	margin-right: 329px;
-	margin-top: 4px;
+	float: left;
+	margin: 4px 0 0 5px;
 }
 .select{
 	padding:19px 0;	
@@ -116,15 +128,15 @@ button{
 	font-size: 14px;
 	font-weight: bold;
 	color:#b3aeaa;
-	background:url("../img/button.png");
+	background:url("../../../../Verstka 2/ORIGINAL Verstka 1/img/button.png");
 }
 button h2{
 	margin:0;
 }
 .inf{
-	width:173px;
+	width:17.8%;
 	float:right;
-	margin:0 90px 0 30px;
+	margin-right:9%;
 }
 .inf p{
 	margin:4px 0;
@@ -134,18 +146,13 @@ button h2{
 	font-size:16px;
 	margin:0;
 }
-@media only screen and (max-width: 900px) {	
-.inf {width:68%; float:left; margin:0 0 10px 0;} 
 
+@media only screen and (max-width: 690px) {	
 
-} 
-@media only screen and (max-width: 650px) {	
+.inf {width:100%; float:left; margin:0 0 10px 0;}
 	
-body{
-	width:800px;
-}
-.header{
-	width:475px;
+.content{
+	max-width:100%
 }
 .contact input[type=text]{
 	margin: 4px 0 8px 10%;
@@ -155,17 +162,20 @@ input[type=text]{
 	margin: 4px 0 0 10%;
 }
 .a label, .r label {
-margin: 10px 0 5px 55px;
+margin: 10px 0 5px 10%;
 float:none;
 }
+.b{
+	margin:0;
+}
 .b input {
-    margin:5px 0px 35px 55px;
+    margin:5px 0px 0px 10%;
 }
 .a{
 	padding-top: 35px;
 }
 .content .a:first-child{
-	padding-top:1px;
+	padding-top:10px;
 }
 .a label{
 	width:27%;
@@ -173,12 +183,13 @@ float:none;
 .radio{
 	width: 90%;
 	margin-top:2px;
+	margin:5px 0px 15px 10%;
 }
 .sel{
-	margin: 4px 0 0 55px;
+	margin: 4px 0 0 10%;
 }
 .conh2{
-	margin: 10px 0px 5px 55px;
+	margin: 10px 0px 5px 10%;
 }
 .contact .a{
 	padding-top: 10px;
@@ -187,10 +198,10 @@ float:none;
 	margin-top: 60px;
 }
 .d{
-	margin: 0 0 5px 55px;
+	margin: 0 0 5px 10%;
 }
 .button{
-	margin: 0 0 5px 55px;
+	margin: 0 0 5px 10%;
 }
 .select {
     padding: 30px 0px;
@@ -198,6 +209,3 @@ float:none;
 .r{
 	margin-top:10px;
 }
-.change {
-    margin-right: 340px;
-} 
