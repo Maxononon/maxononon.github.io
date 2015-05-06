@@ -75,13 +75,13 @@ select, input[type=text]{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-.b input{
+.b input[type=checkbox]{
 	margin:5px 0 0 0;
 	height:15px;
 	width:15px;
 	float:left;
 }
-.d input{
+.d input[type=checkbox]{
 	height:15px;
 	width:15px;
 }
@@ -101,6 +101,7 @@ select, input[type=text]{
 }
 .radio input{
 	margin-left:0;
+	height:14px;
 }
 .change{
 	width: 130px;
