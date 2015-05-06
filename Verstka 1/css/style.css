@@ -169,9 +169,10 @@ float:none;
 .b{
 	margin:0;
 }
-.b input {
+.b input[type="checkbox"] {
     margin:5px 0px 0px 10%;
 }
+
 .a{
 	padding-top: 35px;
 }
