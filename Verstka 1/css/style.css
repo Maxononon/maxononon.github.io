@@ -2,7 +2,7 @@ body{
 	max-width:970px;
 	min-width:230px;
 	margin:30px auto;
-	font-size:16px;
+	font-size:15px;
 	font-family:Arial, Verdana, sans-serif;
 	padding:0 40px;
 
@@ -38,7 +38,7 @@ body{
 	border-radius: 0 0 10px 10px;
 }
 select, input[type=text]{
-	font-size:16px;
+	font-size:15px;
 
 }
 
