@@ -2,7 +2,7 @@ body{
 	max-width:970px;
 	min-width:230px;
 	margin:30px auto;
-	font-size:15px;
+	font-size:14px;
 	font-family:Arial, Verdana, sans-serif;
 	padding:0 40px;
 
@@ -37,9 +37,12 @@ body{
 	padding:30px 0;
 	border-radius: 0 0 10px 10px;
 }
-select, input[type=text]{
-	font-size:15px;
+select{
+	font-size:16px;
 
+}
+ input[type=text]{
+	font-size:14px;
 }
 
 .a{
