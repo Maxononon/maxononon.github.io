@@ -39,6 +39,7 @@ body{
 }
 select, input[type=text]{
 	font-size:15px;
+
 }
 .a{
 	width:99%;
@@ -109,7 +110,8 @@ select, input[type=text]{
 	margin: 4px 0 0 5px;
 }
 .select{
-	padding:19px 0;	
+	padding:19px 0;
+	-webkit-appearance: none;
 }
 .conh2{
 	margin-bottom:0;
